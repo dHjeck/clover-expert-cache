@@ -1,0 +1,50 @@
+{
+  "root": "<CLOVER_MODEL>",
+  "expert_count": 10240,
+  "expert_bytes": 6291456,
+  "sample_count": 96,
+  "direct_io": true,
+  "rows": [
+    {
+      "mode": "one_at_a_time",
+      "experts": 96,
+      "median_ms": 3.722699999343604,
+      "p90_ms": 5.914100009249523,
+      "mean_ms": 38.9112062506077,
+      "throughput_gib_s": 0.1505832269054494
+    },
+    {
+      "mode": "2_in_flight",
+      "workers": 2,
+      "experts": 96,
+      "elapsed_s": 0.18897729998570867,
+      "throughput_gib_s": 2.9765479771514296,
+      "ms_per_expert": 1.9685135415177988
+    },
+    {
+      "mode": "4_in_flight",
+      "workers": 4,
+      "experts": 96,
+      "elapsed_s": 0.15884859999641776,
+      "throughput_gib_s": 3.5411076963390618,
+      "ms_per_expert": 1.6546729166293517
+    },
+    {
+      "mode": "8_in_flight",
+      "workers": 8,
+      "experts": 96,
+      "elapsed_s": 0.15418939999653958,
+      "throughput_gib_s": 3.64811070029862,
+      "ms_per_expert": 1.6061395832972873
+    },
+    {
+      "mode": "16_in_flight",
+      "workers": 16,
+      "experts": 96,
+      "elapsed_s": 0.0987009999807924,
+      "throughput_gib_s": 5.69903040606949,
+      "ms_per_expert": 1.0281354164665875
+    }
+  ],
+  "note": "FILE_FLAG_NO_BUFFERING reads the two gate_up_proj/down_proj ranges of each BF16 expert; results are storage-path measurements, not model throughput."
+}

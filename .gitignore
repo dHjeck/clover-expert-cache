@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Model assets and credentials must not be committed.
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+.env
+.env.*
+
+# Generated benchmark output.
+*.log
+cached-generation.json
+clover-route-profile.json
+runtime-validation.json
+runtime-full-context-validation.json
+chunked-prefill.json
+benchmark-results/
+
+# Local editor and OS files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

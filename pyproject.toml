@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clover-expert-cache"
+version = "0.1.0"
+description = "Experimental CPU-to-GPU routed-expert cache for Clover-35B-A3B-Preview"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Clover Expert Cache contributors" }]
+dependencies = [
+  "torch>=2.6",
+  "transformers>=5.0,<6",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+clover-server = "clover_server:main"
+clover-cached-server = "clover_cached_server:main"
+clover-route-profile = "clover_profile:main"
+clover-cached-benchmark = "clover_cached_benchmark:main"
+
+[tool.setuptools]
+py-modules = [
+  "clover_expert_runtime",
+  "clover_server",
+  "clover_cached_server",
+  "clover_cached_benchmark",
+  "clover_profile",
+  "clover_runtime_validation",
+  "clover_full_context_validation",
+  "clover_chunked_prefill",
+  "clover_kv_probe",
+  "clover_local_client_test",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["test_clover_expert_runtime.py"]

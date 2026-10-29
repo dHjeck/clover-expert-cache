@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-10-28T18:14:14+0800",
+  "endpoint": "http://127.0.0.1:8322/v1/chat/completions",
+  "tests": [
+    {
+      "kind": "nonstream",
+      "block_size": 4,
+      "repeat": 1,
+      "status": 200,
+      "wall_s": 6.6234910000057425,
+      "response": {
+        "id": "chatcmpl-1b3da5d7011a4eb4",
+        "object": "chat.completion",
+        "created": 1793182404,
+        "model": "clover-35b-a3b-preview",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "太阳核心持续进行核聚变，氢聚变成氦并释放巨大"
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 16,
+          "total_tokens": 36
+        },
+        "timings": {
+          "gen_s": 6.61,
+          "tok_per_s": 2.421
+        }
+      },
+      "effective_tok_per_s": 2.421
+    },
+    {
+      "kind": "nonstream",
+      "block_size": 4,
+      "repeat": 2,
+      "status": 200,
+      "wall_s": 6.274922500015236,
+      "response": {
+        "id": "chatcmpl-b6536393d23e4141",
+        "object": "chat.completion",
+        "created": 1793182411,
+        "model": "clover-35b-a3b-preview",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "太阳核心持续进行核聚变，氢聚变成氦并释放巨大"
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 16,
+          "total_tokens": 36
+        },
+        "timings": {
+          "gen_s": 6.27,
+          "tok_per_s": 2.552
+        }
+      },
+      "effective_tok_per_s": 2.552
+    },
+    {
+      "kind": "nonstream",
+      "block_size": 32,
+      "repeat": 1,
+      "status": 200,
+      "wall_s": 15.370355999999447,
+      "response": {
+        "id": "chatcmpl-669aa8da00e04f65",
+        "object": "chat.completion",
+        "created": 1793182417,
+        "model": "clover-35b-a3b-preview",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "太阳核心持续进行氢核聚变，把质量转化为能量，发光。"
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 16,
+          "total_tokens": 36
+        },
+        "timings": {
+          "gen_s": 15.35,
+          "tok_per_s": 1.042
+        }
+      },
+      "effective_tok_per_s": 1.042
+    },
+    {
+      "kind": "nonstream",
+      "block_size": 32,
+      "repeat": 2,
+      "status": 200,
+      "wall_s": 15.106779800000368,
+      "response": {
+        "id": "chatcmpl-ab4da263193a410b",
+        "object": "chat.completion",
+        "created": 1793182432,
+        "model": "clover-35b-a3b-preview",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "太阳核心持续进行氢核聚变，把质量转化为能量，发光。"
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 16,
+          "total_tokens": 36
+        },
+        "timings": {
+          "gen_s": 15.1,
+          "tok_per_s": 1.06
+        }
+      },
+      "effective_tok_per_s": 1.06
+    },
+    {
+      "kind": "stream",
+      "block_size": 4,
+      "status": 200,
+      "wall_s": 6.183816800010391,
+      "first_event_s": 0.016586100013228133,
+      "text": "太阳核心持续进行核聚变，氢聚变成氦并释放巨大",
+      "pieces": 14
+    }
+  ]
+}

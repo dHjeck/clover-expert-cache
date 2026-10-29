@@ -1,0 +1,24 @@
+Clover Expert Cache
+Copyright 2026 Clover Expert Cache contributors
+
+This repository contains an independent experimental runtime for the public
+Clover-35B-A3B-Preview model.
+
+Clover-35B-A3B-Preview
+https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview
+Copyright 2026 Diffuspace and contributors
+Licensed under the Apache License, Version 2.0.
+
+Clover is derived from Qwen3.6-35B-A3B. Upstream model assets are Copyright
+2026 Alibaba Cloud and are distributed under Apache-2.0. The Clover model
+implementation also carries attribution to Copyright 2025 The Qwen Team and
+The Hugging Face Inc. team.
+
+No model weights, tokenizer files, or third-party source snapshots are bundled
+with this repository. The related-work report links to the following projects
+for analysis only:
+
+- moex: https://github.com/neerajdad123-byte/moe
+- OLED-MoE: https://github.com/flashserve/OLED-MoE
+
+These attributions do not imply endorsement by the upstream authors.

@@ -1,0 +1,22 @@
+{
+  "status": "incomplete",
+  "kind": "real_128K_generate_prefill_attempt",
+  "attempts": [
+    {
+      "prompt_tokens": 131072,
+      "max_new_tokens": 1,
+      "block_size": 32,
+      "status": "rejected_before_compute",
+      "error": "Prompt plus full preview blocks exceeds context length: 131072 + 32 > 131072"
+    },
+    {
+      "prompt_tokens": 131040,
+      "max_new_tokens": 1,
+      "block_size": 32,
+      "cache_gib": 2,
+      "status": "interrupted_after_gpu_saturation",
+      "reason": "direct generate prefill remained near 15.8 GiB allocated without producing a result; stopped to avoid an unbounded run"
+    }
+  ],
+  "next_probe": "chunked causal prefill with explicit cache state and bounded chunk sizes"
+}

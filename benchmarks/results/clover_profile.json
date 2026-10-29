@@ -1,0 +1,2032 @@
+{
+  "model": "<CLOVER_MODEL>",
+  "load_seconds": 52.679787499975646,
+  "prompt_tokens": 128,
+  "requested_max_new_tokens": 4,
+  "block_size": 4,
+  "threshold": 0.95,
+  "gpu_layers": 6,
+  "elapsed_seconds": 5.907538300001761,
+  "output_tokens": 4,
+  "cuda_allocated_gib_after": 11.308607578277588,
+  "cuda_reserved_gib_after": 11.35546875,
+  "cuda_peak_allocated_gib": 11.341942310333252,
+  "cuda_peak_reserved_gib": 11.35546875,
+  "preview_calls": 40,
+  "causal_calls": 40,
+  "by_layer": {
+    "0": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        20
+      ],
+      "preview_unique_union": 20,
+      "preview_unique_union_ids": [
+        2,
+        30,
+        39,
+        55,
+        57,
+        59,
+        64,
+        65,
+        87,
+        88,
+        89,
+        105,
+        110,
+        152,
+        161,
+        170,
+        177,
+        181,
+        212,
+        215
+      ],
+      "preview_events": [
+        {
+          "unique_count": 20,
+          "unique_ids": [
+            2,
+            30,
+            39,
+            55,
+            57,
+            59,
+            64,
+            65,
+            87,
+            88,
+            89,
+            105,
+            110,
+            152,
+            161,
+            170,
+            177,
+            181,
+            212,
+            215
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "1": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        16
+      ],
+      "preview_unique_union": 16,
+      "preview_unique_union_ids": [
+        10,
+        16,
+        40,
+        48,
+        57,
+        102,
+        122,
+        123,
+        127,
+        139,
+        176,
+        201,
+        205,
+        206,
+        209,
+        232
+      ],
+      "preview_events": [
+        {
+          "unique_count": 16,
+          "unique_ids": [
+            10,
+            16,
+            40,
+            48,
+            57,
+            102,
+            122,
+            123,
+            127,
+            139,
+            176,
+            201,
+            205,
+            206,
+            209,
+            232
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "2": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        8,
+        39,
+        41,
+        49,
+        79,
+        82,
+        84,
+        106,
+        109,
+        120,
+        158,
+        188,
+        253
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            8,
+            39,
+            41,
+            49,
+            79,
+            82,
+            84,
+            106,
+            109,
+            120,
+            158,
+            188,
+            253
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "3": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        11,
+        25,
+        51,
+        150,
+        153,
+        159,
+        173,
+        182,
+        198,
+        216,
+        225,
+        228,
+        241
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            11,
+            25,
+            51,
+            150,
+            153,
+            159,
+            173,
+            182,
+            198,
+            216,
+            225,
+            228,
+            241
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "4": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        16
+      ],
+      "preview_unique_union": 16,
+      "preview_unique_union_ids": [
+        32,
+        33,
+        49,
+        60,
+        68,
+        72,
+        85,
+        89,
+        181,
+        192,
+        198,
+        201,
+        219,
+        220,
+        230,
+        250
+      ],
+      "preview_events": [
+        {
+          "unique_count": 16,
+          "unique_ids": [
+            32,
+            33,
+            49,
+            60,
+            68,
+            72,
+            85,
+            89,
+            181,
+            192,
+            198,
+            201,
+            219,
+            220,
+            230,
+            250
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "5": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        16
+      ],
+      "preview_unique_union": 16,
+      "preview_unique_union_ids": [
+        30,
+        31,
+        42,
+        68,
+        72,
+        79,
+        94,
+        127,
+        138,
+        151,
+        159,
+        160,
+        166,
+        174,
+        207,
+        250
+      ],
+      "preview_events": [
+        {
+          "unique_count": 16,
+          "unique_ids": [
+            30,
+            31,
+            42,
+            68,
+            72,
+            79,
+            94,
+            127,
+            138,
+            151,
+            159,
+            160,
+            166,
+            174,
+            207,
+            250
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "6": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        12
+      ],
+      "preview_unique_union": 12,
+      "preview_unique_union_ids": [
+        53,
+        63,
+        76,
+        103,
+        122,
+        131,
+        139,
+        140,
+        143,
+        171,
+        179,
+        230
+      ],
+      "preview_events": [
+        {
+          "unique_count": 12,
+          "unique_ids": [
+            53,
+            63,
+            76,
+            103,
+            122,
+            131,
+            139,
+            140,
+            143,
+            171,
+            179,
+            230
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "7": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        22,
+        101,
+        143,
+        147,
+        155,
+        163,
+        165,
+        180,
+        190,
+        203,
+        216,
+        221,
+        252
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            22,
+            101,
+            143,
+            147,
+            155,
+            163,
+            165,
+            180,
+            190,
+            203,
+            216,
+            221,
+            252
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "8": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        41,
+        93,
+        101,
+        106,
+        111,
+        119,
+        139,
+        141,
+        166,
+        167,
+        196,
+        197,
+        200,
+        231,
+        245
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            41,
+            93,
+            101,
+            106,
+            111,
+            119,
+            139,
+            141,
+            166,
+            167,
+            196,
+            197,
+            200,
+            231,
+            245
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "9": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        18,
+        25,
+        63,
+        78,
+        102,
+        113,
+        121,
+        135,
+        158,
+        163,
+        182,
+        184,
+        201,
+        247,
+        251
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            18,
+            25,
+            63,
+            78,
+            102,
+            113,
+            121,
+            135,
+            158,
+            163,
+            182,
+            184,
+            201,
+            247,
+            251
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "10": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        11,
+        21,
+        129,
+        145,
+        151,
+        177,
+        191,
+        192,
+        208,
+        211,
+        214,
+        219,
+        224
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            11,
+            21,
+            129,
+            145,
+            151,
+            177,
+            191,
+            192,
+            208,
+            211,
+            214,
+            219,
+            224
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "11": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        16,
+        28,
+        57,
+        75,
+        82,
+        90,
+        138,
+        149,
+        163,
+        171,
+        205,
+        213,
+        215,
+        228,
+        249
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            16,
+            28,
+            57,
+            75,
+            82,
+            90,
+            138,
+            149,
+            163,
+            171,
+            205,
+            213,
+            215,
+            228,
+            249
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "12": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        17
+      ],
+      "preview_unique_union": 17,
+      "preview_unique_union_ids": [
+        4,
+        6,
+        29,
+        58,
+        68,
+        78,
+        99,
+        100,
+        104,
+        124,
+        137,
+        165,
+        184,
+        214,
+        216,
+        232,
+        235
+      ],
+      "preview_events": [
+        {
+          "unique_count": 17,
+          "unique_ids": [
+            4,
+            6,
+            29,
+            58,
+            68,
+            78,
+            99,
+            100,
+            104,
+            124,
+            137,
+            165,
+            184,
+            214,
+            216,
+            232,
+            235
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "13": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        17
+      ],
+      "preview_unique_union": 17,
+      "preview_unique_union_ids": [
+        2,
+        26,
+        57,
+        64,
+        89,
+        114,
+        117,
+        132,
+        149,
+        161,
+        171,
+        206,
+        209,
+        216,
+        233,
+        236,
+        242
+      ],
+      "preview_events": [
+        {
+          "unique_count": 17,
+          "unique_ids": [
+            2,
+            26,
+            57,
+            64,
+            89,
+            114,
+            117,
+            132,
+            149,
+            161,
+            171,
+            206,
+            209,
+            216,
+            233,
+            236,
+            242
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "14": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        14
+      ],
+      "preview_unique_union": 14,
+      "preview_unique_union_ids": [
+        0,
+        4,
+        9,
+        59,
+        63,
+        97,
+        112,
+        136,
+        166,
+        177,
+        193,
+        215,
+        216,
+        229
+      ],
+      "preview_events": [
+        {
+          "unique_count": 14,
+          "unique_ids": [
+            0,
+            4,
+            9,
+            59,
+            63,
+            97,
+            112,
+            136,
+            166,
+            177,
+            193,
+            215,
+            216,
+            229
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "15": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        25,
+        45,
+        47,
+        48,
+        66,
+        69,
+        70,
+        82,
+        83,
+        108,
+        132,
+        179,
+        208
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            25,
+            45,
+            47,
+            48,
+            66,
+            69,
+            70,
+            82,
+            83,
+            108,
+            132,
+            179,
+            208
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "16": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        14
+      ],
+      "preview_unique_union": 14,
+      "preview_unique_union_ids": [
+        18,
+        64,
+        70,
+        84,
+        92,
+        101,
+        131,
+        166,
+        205,
+        220,
+        236,
+        245,
+        246,
+        248
+      ],
+      "preview_events": [
+        {
+          "unique_count": 14,
+          "unique_ids": [
+            18,
+            64,
+            70,
+            84,
+            92,
+            101,
+            131,
+            166,
+            205,
+            220,
+            236,
+            245,
+            246,
+            248
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "17": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        25,
+        30,
+        33,
+        45,
+        68,
+        74,
+        125,
+        131,
+        150,
+        161,
+        175,
+        182,
+        183,
+        185,
+        227
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            25,
+            30,
+            33,
+            45,
+            68,
+            74,
+            125,
+            131,
+            150,
+            161,
+            175,
+            182,
+            183,
+            185,
+            227
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "18": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        12
+      ],
+      "preview_unique_union": 12,
+      "preview_unique_union_ids": [
+        14,
+        35,
+        75,
+        88,
+        100,
+        102,
+        110,
+        155,
+        172,
+        180,
+        199,
+        216
+      ],
+      "preview_events": [
+        {
+          "unique_count": 12,
+          "unique_ids": [
+            14,
+            35,
+            75,
+            88,
+            100,
+            102,
+            110,
+            155,
+            172,
+            180,
+            199,
+            216
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "19": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        41,
+        44,
+        74,
+        81,
+        87,
+        89,
+        94,
+        98,
+        176,
+        207,
+        208,
+        221,
+        234,
+        235,
+        237
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            41,
+            44,
+            74,
+            81,
+            87,
+            89,
+            94,
+            98,
+            176,
+            207,
+            208,
+            221,
+            234,
+            235,
+            237
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "20": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        13
+      ],
+      "preview_unique_union": 13,
+      "preview_unique_union_ids": [
+        8,
+        11,
+        37,
+        39,
+        67,
+        127,
+        131,
+        134,
+        139,
+        149,
+        165,
+        197,
+        209
+      ],
+      "preview_events": [
+        {
+          "unique_count": 13,
+          "unique_ids": [
+            8,
+            11,
+            37,
+            39,
+            67,
+            127,
+            131,
+            134,
+            139,
+            149,
+            165,
+            197,
+            209
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "21": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        14
+      ],
+      "preview_unique_union": 14,
+      "preview_unique_union_ids": [
+        18,
+        26,
+        46,
+        53,
+        60,
+        63,
+        113,
+        122,
+        136,
+        171,
+        194,
+        213,
+        219,
+        246
+      ],
+      "preview_events": [
+        {
+          "unique_count": 14,
+          "unique_ids": [
+            18,
+            26,
+            46,
+            53,
+            60,
+            63,
+            113,
+            122,
+            136,
+            171,
+            194,
+            213,
+            219,
+            246
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "22": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        18
+      ],
+      "preview_unique_union": 18,
+      "preview_unique_union_ids": [
+        11,
+        22,
+        29,
+        37,
+        50,
+        60,
+        61,
+        76,
+        80,
+        90,
+        93,
+        100,
+        144,
+        182,
+        191,
+        211,
+        219,
+        231
+      ],
+      "preview_events": [
+        {
+          "unique_count": 18,
+          "unique_ids": [
+            11,
+            22,
+            29,
+            37,
+            50,
+            60,
+            61,
+            76,
+            80,
+            90,
+            93,
+            100,
+            144,
+            182,
+            191,
+            211,
+            219,
+            231
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "23": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        19
+      ],
+      "preview_unique_union": 19,
+      "preview_unique_union_ids": [
+        1,
+        4,
+        28,
+        35,
+        78,
+        87,
+        104,
+        149,
+        153,
+        155,
+        162,
+        163,
+        168,
+        176,
+        205,
+        219,
+        221,
+        224,
+        239
+      ],
+      "preview_events": [
+        {
+          "unique_count": 19,
+          "unique_ids": [
+            1,
+            4,
+            28,
+            35,
+            78,
+            87,
+            104,
+            149,
+            153,
+            155,
+            162,
+            163,
+            168,
+            176,
+            205,
+            219,
+            221,
+            224,
+            239
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "24": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        8,
+        16,
+        61,
+        68,
+        70,
+        83,
+        88,
+        100,
+        124,
+        126,
+        137,
+        165,
+        187,
+        214,
+        216
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            8,
+            16,
+            61,
+            68,
+            70,
+            83,
+            88,
+            100,
+            124,
+            126,
+            137,
+            165,
+            187,
+            214,
+            216
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "25": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        15
+      ],
+      "preview_unique_union": 15,
+      "preview_unique_union_ids": [
+        2,
+        26,
+        55,
+        57,
+        70,
+        78,
+        84,
+        88,
+        114,
+        135,
+        146,
+        177,
+        209,
+        233,
+        236
+      ],
+      "preview_events": [
+        {
+          "unique_count": 15,
+          "unique_ids": [
+            2,
+            26,
+            55,
+            57,
+            70,
+            78,
+            84,
+            88,
+            114,
+            135,
+            146,
+            177,
+            209,
+            233,
+            236
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "26": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        20
+      ],
+      "preview_unique_union": 20,
+      "preview_unique_union_ids": [
+        0,
+        9,
+        13,
+        26,
+        97,
+        102,
+        112,
+        119,
+        127,
+        139,
+        150,
+        166,
+        177,
+        181,
+        193,
+        209,
+        211,
+        215,
+        217,
+        223
+      ],
+      "preview_events": [
+        {
+          "unique_count": 20,
+          "unique_ids": [
+            0,
+            9,
+            13,
+            26,
+            97,
+            102,
+            112,
+            119,
+            127,
+            139,
+            150,
+            166,
+            177,
+            181,
+            193,
+            209,
+            211,
+            215,
+            217,
+            223
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "27": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        16
+      ],
+      "preview_unique_union": 16,
+      "preview_unique_union_ids": [
+        2,
+        45,
+        47,
+        69,
+        82,
+        83,
+        108,
+        124,
+        127,
+        175,
+        190,
+        198,
+        208,
+        225,
+        248,
+        255
+      ],
+      "preview_events": [
+        {
+          "unique_count": 16,
+          "unique_ids": [
+            2,
+            45,
+            47,
+            69,
+            82,
+            83,
+            108,
+            124,
+            127,
+            175,
+            190,
+            198,
+            208,
+            225,
+            248,
+            255
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "28": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        17
+      ],
+      "preview_unique_union": 17,
+      "preview_unique_union_ids": [
+        19,
+        40,
+        46,
+        48,
+        64,
+        70,
+        90,
+        113,
+        126,
+        166,
+        182,
+        208,
+        216,
+        230,
+        245,
+        246,
+        248
+      ],
+      "preview_events": [
+        {
+          "unique_count": 17,
+          "unique_ids": [
+            19,
+            40,
+            46,
+            48,
+            64,
+            70,
+            90,
+            113,
+            126,
+            166,
+            182,
+            208,
+            216,
+            230,
+            245,
+            246,
+            248
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "29": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        14
+      ],
+      "preview_unique_union": 14,
+      "preview_unique_union_ids": [
+        25,
+        33,
+        35,
+        64,
+        68,
+        70,
+        82,
+        100,
+        136,
+        171,
+        181,
+        182,
+        189,
+        194
+      ],
+      "preview_events": [
+        {
+          "unique_count": 14,
+          "unique_ids": [
+            25,
+            33,
+            35,
+            64,
+            68,
+            70,
+            82,
+            100,
+            136,
+            171,
+            181,
+            182,
+            189,
+            194
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "30": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        17
+      ],
+      "preview_unique_union": 17,
+      "preview_unique_union_ids": [
+        13,
+        14,
+        47,
+        49,
+        69,
+        102,
+        106,
+        108,
+        110,
+        113,
+        136,
+        155,
+        160,
+        181,
+        206,
+        243,
+        251
+      ],
+      "preview_events": [
+        {
+          "unique_count": 17,
+          "unique_ids": [
+            13,
+            14,
+            47,
+            49,
+            69,
+            102,
+            106,
+            108,
+            110,
+            113,
+            136,
+            155,
+            160,
+            181,
+            206,
+            243,
+            251
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "31": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        14
+      ],
+      "preview_unique_union": 14,
+      "preview_unique_union_ids": [
+        17,
+        30,
+        35,
+        41,
+        51,
+        78,
+        79,
+        81,
+        141,
+        142,
+        161,
+        201,
+        221,
+        230
+      ],
+      "preview_events": [
+        {
+          "unique_count": 14,
+          "unique_ids": [
+            17,
+            30,
+            35,
+            41,
+            51,
+            78,
+            79,
+            81,
+            141,
+            142,
+            161,
+            201,
+            221,
+            230
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "32": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        21
+      ],
+      "preview_unique_union": 21,
+      "preview_unique_union_ids": [
+        20,
+        21,
+        27,
+        38,
+        39,
+        50,
+        55,
+        61,
+        64,
+        86,
+        94,
+        105,
+        118,
+        150,
+        154,
+        159,
+        163,
+        180,
+        184,
+        231,
+        239
+      ],
+      "preview_events": [
+        {
+          "unique_count": 21,
+          "unique_ids": [
+            20,
+            21,
+            27,
+            38,
+            39,
+            50,
+            55,
+            61,
+            64,
+            86,
+            94,
+            105,
+            118,
+            150,
+            154,
+            159,
+            163,
+            180,
+            184,
+            231,
+            239
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "33": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        21
+      ],
+      "preview_unique_union": 21,
+      "preview_unique_union_ids": [
+        9,
+        32,
+        34,
+        37,
+        45,
+        62,
+        88,
+        101,
+        113,
+        116,
+        136,
+        137,
+        138,
+        140,
+        141,
+        155,
+        209,
+        213,
+        239,
+        241,
+        254
+      ],
+      "preview_events": [
+        {
+          "unique_count": 21,
+          "unique_ids": [
+            9,
+            32,
+            34,
+            37,
+            45,
+            62,
+            88,
+            101,
+            113,
+            116,
+            136,
+            137,
+            138,
+            140,
+            141,
+            155,
+            209,
+            213,
+            239,
+            241,
+            254
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "34": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        21
+      ],
+      "preview_unique_union": 21,
+      "preview_unique_union_ids": [
+        17,
+        49,
+        51,
+        77,
+        94,
+        102,
+        104,
+        117,
+        140,
+        141,
+        152,
+        153,
+        162,
+        165,
+        190,
+        194,
+        212,
+        216,
+        217,
+        230,
+        255
+      ],
+      "preview_events": [
+        {
+          "unique_count": 21,
+          "unique_ids": [
+            17,
+            49,
+            51,
+            77,
+            94,
+            102,
+            104,
+            117,
+            140,
+            141,
+            152,
+            153,
+            162,
+            165,
+            190,
+            194,
+            212,
+            216,
+            217,
+            230,
+            255
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "35": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        18
+      ],
+      "preview_unique_union": 18,
+      "preview_unique_union_ids": [
+        0,
+        19,
+        38,
+        49,
+        66,
+        78,
+        130,
+        141,
+        152,
+        172,
+        198,
+        199,
+        212,
+        213,
+        214,
+        225,
+        232,
+        248
+      ],
+      "preview_events": [
+        {
+          "unique_count": 18,
+          "unique_ids": [
+            0,
+            19,
+            38,
+            49,
+            66,
+            78,
+            130,
+            141,
+            152,
+            172,
+            198,
+            199,
+            212,
+            213,
+            214,
+            225,
+            232,
+            248
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "36": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        19
+      ],
+      "preview_unique_union": 19,
+      "preview_unique_union_ids": [
+        8,
+        15,
+        16,
+        25,
+        61,
+        69,
+        102,
+        136,
+        151,
+        163,
+        169,
+        179,
+        183,
+        191,
+        199,
+        230,
+        234,
+        235,
+        253
+      ],
+      "preview_events": [
+        {
+          "unique_count": 19,
+          "unique_ids": [
+            8,
+            15,
+            16,
+            25,
+            61,
+            69,
+            102,
+            136,
+            151,
+            163,
+            169,
+            179,
+            183,
+            191,
+            199,
+            230,
+            234,
+            235,
+            253
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "37": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        20
+      ],
+      "preview_unique_union": 20,
+      "preview_unique_union_ids": [
+        3,
+        6,
+        12,
+        14,
+        15,
+        34,
+        57,
+        85,
+        96,
+        111,
+        130,
+        185,
+        193,
+        194,
+        209,
+        220,
+        233,
+        250,
+        251,
+        254
+      ],
+      "preview_events": [
+        {
+          "unique_count": 20,
+          "unique_ids": [
+            3,
+            6,
+            12,
+            14,
+            15,
+            34,
+            57,
+            85,
+            96,
+            111,
+            130,
+            185,
+            193,
+            194,
+            209,
+            220,
+            233,
+            250,
+            251,
+            254
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "38": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        19
+      ],
+      "preview_unique_union": 19,
+      "preview_unique_union_ids": [
+        1,
+        10,
+        11,
+        32,
+        42,
+        44,
+        78,
+        80,
+        93,
+        97,
+        99,
+        111,
+        120,
+        124,
+        126,
+        138,
+        146,
+        215,
+        221
+      ],
+      "preview_events": [
+        {
+          "unique_count": 19,
+          "unique_ids": [
+            1,
+            10,
+            11,
+            32,
+            42,
+            44,
+            78,
+            80,
+            93,
+            97,
+            99,
+            111,
+            120,
+            124,
+            126,
+            138,
+            146,
+            215,
+            221
+          ],
+          "token_count": 4
+        }
+      ]
+    },
+    "39": {
+      "preview_forward_count": 1,
+      "causal_forward_count": 1,
+      "preview_unique_per_forward": [
+        21
+      ],
+      "preview_unique_union": 21,
+      "preview_unique_union_ids": [
+        6,
+        10,
+        23,
+        36,
+        44,
+        48,
+        72,
+        73,
+        78,
+        98,
+        106,
+        114,
+        120,
+        125,
+        137,
+        185,
+        192,
+        198,
+        206,
+        210,
+        244
+      ],
+      "preview_events": [
+        {
+          "unique_count": 21,
+          "unique_ids": [
+            6,
+            10,
+            23,
+            36,
+            44,
+            48,
+            72,
+            73,
+            78,
+            98,
+            106,
+            114,
+            120,
+            125,
+            137,
+            185,
+            192,
+            198,
+            206,
+            210,
+            244
+          ],
+          "token_count": 4
+        }
+      ]
+    }
+  },
+  "decoded": " the following code carefully"
+}
